@@ -1,0 +1,12 @@
+<html>
+
+<head>
+  <title>alcantara</title>
+</head>
+
+<body>
+  {% for item in files %}
+    <a href="viewer.html?file={{item.fullpath}}">{{item.name}}</a>
+  {% endfor %}
+</body>
+</html>
